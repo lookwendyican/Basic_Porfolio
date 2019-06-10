@@ -1,7 +1,8 @@
 body {
     width: 960px;
     background-color: beige;
-    background-image: url("dark-grey-terrazzo.png");
+    background-image: url("../images/terrazzo.png");
+    margin: 0 auto;
 }
 
 
@@ -36,7 +37,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: salmon;
+    color: teal;
   }
   
   /* mouse over link */
@@ -137,14 +138,17 @@ section .portfolio1{
     bottom: 5px;
 }
 
-.end{
-    background-color: teal;
-    height: 5px;
-}   
+
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #666666;
     color: white;
     text-align: center;
     padding-top: 25px;
-    
+    border-top: 5px solid teal;
 }
+    
+    
