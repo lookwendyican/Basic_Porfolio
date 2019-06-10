@@ -1,7 +1,8 @@
 body {
     width: 960px;
-    background-image: url("light-grey-terrazzo.png");
-    background-color: beige;
+    
+
+  background-image: url("dark-grey-terrazzo.png");
 }
 
 
@@ -80,7 +81,7 @@ section .portfolio1{
     clear: both;
     overflow: auto;
     margin: 0 auto;
-    width: 550px;
+    width: 600px;
     background-color: #ffffff;
 }
 #mepix {
