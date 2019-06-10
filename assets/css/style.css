@@ -1,8 +1,7 @@
 body {
     width: 960px;
-    
-
-  background-image: url("dark-grey-terrazzo.png");
+    background-color: beige;
+    background-image: url("dark-grey-terrazzo.png");
 }
 
 
@@ -91,9 +90,10 @@ section .portfolio1{
 }
 
 .input {
-    Width: 530px;
+    Width: 500px;
     height: 20px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 10px;
 
     
 }
@@ -104,7 +104,7 @@ section .portfolio1{
     margin: 10px;
 }
 #inputmessage {
-    Width: 530px;
+    Width: 500px;
     height: 200px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     
@@ -134,9 +134,13 @@ section .portfolio1{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     width: 230px;
     padding: 10px;
+    bottom: 5px;
 }
 
-    
+.end{
+    background-color: teal;
+    height: 5px;
+}   
 footer {
     background-color: #666666;
     color: white;
